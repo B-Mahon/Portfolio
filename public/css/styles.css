@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+}
+
+.subheading {
+  color: #0c4762;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15% 7%;
+  text-align: center;
+}
+
+.container-flex {
+  padding: 1% 15% 1%;
+  text-align: center;
+}
+
+/*Nav Bar*/
+#mainNav .navbar-brand {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.nav-style {
+  background-color: #0c4762;
+}
+
+.sb {
+  float: left;
+  margin-bottom: .5rem;
+  position: relative;
+  width: 100%;
+}
+
+.section-break-1 {
+  background-color: transparent;
+  border: 0;
+  border-top: 8px double #52de97;
+  height: 3px;
+  margin: 2rem auto;
+  width: 30%;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Sections */
+.colored-section {
+  background-color: #d2fafb;
+  color: #0c4762;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.green-section {
+  background-color: #52de97;
+}
+
+.green-section-heading {
+  font-size: 3rem;
+  line-height: 0.5;
+  color: #0c4762;
+  font-weight: 900;
+}
+
+.white-section-heading {
+  font-size: 3rem;
+  line-height: 0.5;
+  color: #52de97;
+  font-weight: 900;
+}
+
+h5.card-title {
+  color: #52de97;
+  font-weight: 800;
+}
+
+/* Footer */
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff
+}
+
+.copyright {
+  background-color: black;
+}

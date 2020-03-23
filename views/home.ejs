@@ -1,0 +1,156 @@
+<%- include ('partials/header') %>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light nav-style text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#landing">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1 active">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="colored-section" id="landing">
+    <div class="container-fluid">
+      <div class="row">
+        <img src="/images/cloud.png" alt="" class="float-right">
+        <div class="col-lg-12 center-block text-center avatar">
+          <img class="rounded-circle" alt="100x100" src="/images/avataaars.svg" data-holder-rendered="true">
+        </div>
+        <div class="col-lg-12 center-block text-center">
+          <h1 class="big-heading mb-0">I'm Blaine</h1>
+        </div>
+        <div class="sb sb-1">
+          <hr class="section-break-1" />
+        </div>
+        <div class="col-lg-12 center-block text-center">
+          <p class="subheading">Programmer - Engineer - Designer </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-section" id="projects">
+    <div class="container-fluid">
+      <h2 class="white-section-heading mb-10 text-center text-uppercase">Portfolio</h2>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-sm-6 center-block text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/game.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 center-block text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/safe.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 center-block text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/submarine.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title white-section-card-title">Project 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="green-section">
+    <div class="container-fluid mt-5" id="about">
+      <h2 class="green-section-heading text-uppercase mb-5">About</h2>
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="info">
+            I am self taught full stack web developer.
+            Experience using node js, react, mongoDB, HTML, and CSS.
+            Knowledge of HTTP standards, API's, REST, web security and authentication. Looking to learn more and get more expierence in web development!
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="info">
+            I have a bachelors degree in computer engineering from the University of Massachusetts Lowell. I have experience programming using several languages including Python, C, C++. Comfotrable using the command line interfaces such as linux
+            and bash scripting.
+          </p>
+        </div>
+        <div class="col-lg-12 text-center mt-4">
+          <a class="btn btn-primary btn-lg" href="https://docs.google.com/document/d/1NEvjbnSZ4RqPDBOTfCPJebnwUry2-4AHlVtlLvNdEYI/edit?usp=sharing">
+            <i class="fas fa-download mr-2"></i>
+            Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="white-section" id="contact">
+    <div class="container-fluid">
+      <h2 class="white-section-heading text-center text-uppercase mb-5">Contact Me</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form action="/" method="post">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Name</label>
+                <input class="form-control" name="cityName" type="text" placeholder="Name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Email Address</label>
+                <input class="form-control" name="cityEmail" type="email" placeholder="Email Address" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Phone Number</label>
+                <input class="form-control" name="cityPhone" placeholder="Phone Number">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Message</label>
+                <textarea class="form-control" id="message" name="cityContent" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%- include ('partials/footer') %>
