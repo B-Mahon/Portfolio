@@ -2,10 +2,15 @@ body {
   text-align: center;
 }
 
-h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-weight: 500;
+
 }
+P{
+  color:#0c4762;
+  font-weight:500;
+  }
 
 /* Headings */
 .big-heading {
@@ -22,10 +27,13 @@ h2, h3, h4, h5, h6, p {
 }
 
 /* Containers */
+
 .container-fluid {
   padding: 7% 15% 7%;
   text-align: center;
 }
+
+
 
 .container-flex {
   padding: 1% 15% 1%;
@@ -66,7 +74,7 @@ h2, h3, h4, h5, h6, p {
 .section-break-1 {
   background-color: transparent;
   border: 0;
-  border-top: 8px double #52de97;
+  border-top: 8px double #0c4762;
   height: 3px;
   margin: 2rem auto;
   width: 30%;
@@ -89,7 +97,7 @@ h2, h3, h4, h5, h6, p {
 }
 
 .green-section {
-  background-color: #52de97;
+  background-color: #d2fafb;
 }
 
 .green-section-heading {
@@ -102,22 +110,28 @@ h2, h3, h4, h5, h6, p {
 .white-section-heading {
   font-size: 3rem;
   line-height: 0.5;
-  color: #52de97;
+  color: #0c4762;
   font-weight: 900;
 }
 
 h5.card-title {
-  color: #52de97;
+  color: #0c4762;
   font-weight: 800;
 }
 
+.info{
+  color:#0c4762;
+}
 /* Footer */
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff
+  background-color:  #d2fafb;
+  color:#0c4762;
 }
+
+.btn-outline-light {
+  background-color:#0c4762;}
 
 .copyright {
   background-color: black;
