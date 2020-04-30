@@ -50,6 +50,8 @@ p {
 .container-fluid {
   padding: 7% 15% 7%;
   text-align: center;
+  width: 100%;
+
 }
 
 .container-flex {
@@ -126,6 +128,8 @@ p {
 .colored-section {
   background-color: #d2fafb;
   color: #0c4762;
+  height:40vh;
+  align-items: center;
 }
 
 .white-section {
